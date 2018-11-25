@@ -1,4 +1,4 @@
-# 2018_TUSCRIPT
+# GODOT workshop
 
-online: [https://digicademy.github.io/###](https://digicademy.github.io/###)
-# tustep4Pi
+online: [https://KollatzThomas.github.io/godot](https://KollatzThomas.github.io/godot)
+# Jewish Calendar Dates in epidat
