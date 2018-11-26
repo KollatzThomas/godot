@@ -570,6 +570,32 @@
                         </dl></div></div>
             </div>
             <div class="step">
+                <h2 class="red">Jewish dates represented in TEI XML</h2>
+                <h3>current state</h3>
+                <pre><code class="xml">&lt;listPerson&gt;
+  &lt;person xml:id="hha-3361-1" sex='1'&gt;
+   &lt;persName&gt;Schmuel ben Jehuda&lt;/persName&gt;
+   <span class="red"><strong>&lt;death when="1621-08-17"/&gt;</strong></span>
+  &lt;/person&gt;
+  &lt;listRelation&gt;
+   &lt;relation name="parent" active="#hha-3361-1" passive="#hha-2437-1 #hha-6241-1"/&gt;
+   &lt;relation name="spouse" mutual="#hha-3360-1 #hha-3361-1"/&gt;
+ &lt;/listRelation&gt;
+&lt;/listPerson&gt;</code></pre>
+                <h3>upcoming</h3>
+                <pre><code class="xml">&lt;listPerson&gt;
+ &lt;person xml:id="hha-3361-1" sex="1"&gt;
+  &lt;persName&gt;Schmuel ben Jehuda&lt;/persName&gt;
+  <span class="red"><strong>&lt;death when="1621-08-17" calendar="#Jewish"&gt;30. Av 5381&lt;/death&gt;</strong></span>
+ &lt;/person&gt;
+ &lt;listRelation&gt;
+  &lt;relation name="parent" active="#hha-3361-1" passive="#hha-2437-1 #hha-6241-1"/&gt;
+  &lt;relation name="spouse" mutual="#hha-3360-1 #hha-3361-1"/&gt;
+ &lt;/listRelation&gt;
+&lt;/listPerson&gt;</code></pre>
+                
+            </div>
+            <div class="step">
                 <h2 class="red">tools</h2>
                 <figure class="mfp-lightbox"><a href="resources/img/rosetta_calendar.png"><img
                             src="resources/img/rosetta_calendar.png" /></a></figure><p
